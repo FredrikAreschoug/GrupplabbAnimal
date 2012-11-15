@@ -4,6 +4,7 @@ public class Cat {
 	
 	int energy;
 	String sound;
+	static String pic = " _\n \\`*-.\n  )  _`-.\n .  : `. .\n : _   '  \n ; *` _.   `*-._\n `-.-'          `-.\n   ;       `       `.\n   :.       .        \\\n   . \\  .   :   .-'   .\n   '  `+.;  ;  '      :\n   :  '  |    ;       ;-.\n   ; '   : :`-:     _.`* ;\n.*' /  .*' ; .*`- +'  `*'\n`*-*   `*-*  `*-*'\n";
 	
 	Cat(){
 		sound = "mjau";
@@ -27,6 +28,9 @@ public class Cat {
 		this.energy = energy;
 	}
 	
+	public void drawPic(){
+		System.out.println();
+	}
 	
 	
 }
