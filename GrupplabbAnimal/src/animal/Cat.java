@@ -1,5 +1,6 @@
 package animal;
 
+//git
 public class Cat {
 	
 	int energy;
