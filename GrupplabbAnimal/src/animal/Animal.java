@@ -16,24 +16,35 @@ public class Animal {
 
 
 	public static void menu(){
+		boolean bajs = false;
 		Scanner scan = new Scanner(System.in);
-		System.out.println("Pick an animal");
 
-		String choise = scan.nextLine();
 //		String choise2 = scan.nextLine();
 
-		switch(choise){
-		case "cat":
-			cat.printStats();
-			break;
-		case "bunny":
-			break;
-		case "wolf":
-			break;
-		case "owl":
-			break;
-		default:
-			break;
+		while(!bajs){
+			System.out.println("Pick an animal, type done to exit: ");
+			String choise = scan.nextLine();
+			switch(choise){
+			case "cat":
+				cat.printStats();
+				break;
+			case "bunny":
+				bunny.printStats();
+				break;
+			case "wolf":
+				wolf.printStats();
+				break;
+			case "owl":
+				owl.printStats();
+				break;
+			case "done":
+				bajs = true;	
+				break;
+			default:
+				System.out.println("not a fighting animal...");
+				break;
+			}
+			
 		}
 	}
 }

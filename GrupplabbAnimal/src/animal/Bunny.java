@@ -5,7 +5,7 @@ public class Bunny extends Stats{
 	public Bunny() {
 		health = 10;
 		energy = 10;
-		attackPower = 10;
+		attackPower = 100000;
 		speed = 10;
 	}
 	
