@@ -1,11 +1,15 @@
 package animal;
 
 //git
-public class Cat {
+public class Cat extends Stats{
 	
 	private String sound;
 	
-	Cat(){
+	public Cat(){
+		health = 10;
+		energy = 10;
+		attackPower = 10;
+		speed = 10;
 		sound = "mjau";
 		
 	}
