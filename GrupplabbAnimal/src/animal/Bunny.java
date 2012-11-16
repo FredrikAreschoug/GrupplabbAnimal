@@ -1,25 +1,26 @@
 package animal;
 
-public class Bunny extends Animal{
-
-	private int bunnyEnergy;
+public class Bunny extends Stats{
 	
 	public Bunny() {
-		bunnyEnergy=10;
+		health = 10;
+		energy = 10;
+		attackPower = 10;
+		speed = 10;
 	}
 	
 	public String sound() {
-		bunnyEnergy--;
+		energy--;
 		return "Pip, pip, gnag!";
 	}
 	
 	public int eat() {
-		bunnyEnergy += 5;
-		return bunnyEnergy;
+		energy += 5;
+		return energy;
 	}
 	
 	public void bunnyJump() {
 		System.out.println("Hopp! Tjooo!");
-		bunnyEnergy -= 2;
+		energy -= 2;
 	}
 }

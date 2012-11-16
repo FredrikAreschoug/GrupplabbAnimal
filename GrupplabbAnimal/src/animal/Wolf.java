@@ -1,11 +1,14 @@
 package animal;
 
-public class Wolf extends Animal{
+public class Wolf extends Stats{
 	
 	int energy;
 	
 	public Wolf(){
-		energy = 14;
+		health = 10;
+		energy = 10;
+		attackPower = 10;
+		speed = 10;
 		System.out.println("I like bunnies...yum yum");
 	}
 	public String sound(){
