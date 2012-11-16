@@ -10,4 +10,11 @@ public class Stats {
 	public Stats(){
 		
 	}
+	
+	public void printStats(){
+		System.out.println("health: " + health + "\n" + 
+							"energy: " + energy + "\n" +
+							"attack power: " + attackPower + "\n" +
+							"speed: " + speed + "\n");
+	}
 }
