@@ -1,6 +1,6 @@
 package animal;
 
-public class Bunny {
+public class Bunny extends Animal{
 
 	private int bunnyEnergy;
 	
