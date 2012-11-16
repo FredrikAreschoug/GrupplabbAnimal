@@ -6,7 +6,7 @@ public class Owl extends Stats{
 		health = 10;
 		energy = 10;
 		attackPower = 10;
-		speed = 10;
+		speed = 999;
 		
 	}
 	

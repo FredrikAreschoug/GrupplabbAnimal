@@ -5,8 +5,8 @@ public class Wolf extends Stats{
 	int energy;
 	
 	public Wolf(){
-		health = 10;
-		energy = 10;
+		health = 1;
+		energy = 666;
 		attackPower = 10;
 		speed = 10;
 //		System.out.println("I like bunnies...yum yum");
