@@ -30,7 +30,7 @@ public class Cat {
 	}
 	
 	public void drawPic(){
-		System.out.println();
+		System.out.println(PIC);
 	}
 	
 	
