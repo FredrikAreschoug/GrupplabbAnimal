@@ -22,7 +22,6 @@ public class Wolf extends Stats{
 	public String poop(){
 		String fx2 = "HHNnnnnnngh!";
 		return fx2;
-		
 	}
 	
 }
