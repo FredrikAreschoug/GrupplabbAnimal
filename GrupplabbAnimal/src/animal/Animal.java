@@ -16,12 +16,12 @@ public class Animal {
 
 
 	public static void menu(){
-		boolean bajs = false;
+		boolean end = false;
 		Scanner scan = new Scanner(System.in);
 
 //		String choise2 = scan.nextLine();
 
-		while(!bajs){
+		while(!end){
 			System.out.println("Pick an animal, type done to exit: ");
 			String choise = scan.nextLine();
 			switch(choise){
@@ -38,7 +38,7 @@ public class Animal {
 				owl.printStats();
 				break;
 			case "done":
-				bajs = true;	
+				end = true;	
 				break;
 			default:
 				System.out.println("not a fighting animal...");
